@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Clacker</title>
     <link rel="stylesheet" href="index.css">
-    <script src="./matter.js"></script>
+    <script>"https://cdnjs.cloudflare.com/ajax/libs/matter-js/0.20.0/matter.min.js"</script>
   </head>
   <body>
     <p>Hello</p>
@@ -13,10 +13,10 @@
       <script type = "text/javascript" src="./clacker.js"></script>
       <script>   
         console.log("in onload");
-        //window.onload = () => { 
+        window.onload = () => { 
           document.getElementById("clacker").innerHTML = wrapper();
           console.log("in onload");
-        //}       
+        }       
       </script> 
   </div>
 </body>
