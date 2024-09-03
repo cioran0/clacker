@@ -1,3 +1,6 @@
+function wrapper (){
+
+console.log("in wrapper");
 var Example = Example || {};
 
 Example.newtonsCradle = function() {
@@ -105,10 +108,11 @@ Example.newtonsCradle.newtonsCradle = function(xx, yy, number, size, length) {
         Composite.addBody(newtonsCradle, circle);
         Composite.addConstraint(newtonsCradle, constraint);
     }
-
+    console.log("NewtonsCradle ", newtonsCradle)
     return newtonsCradle;
 };
 
 if (typeof module !== 'undefined') {
     module.exports = Example.newtonsCradle;
+}
 }
