@@ -1,3 +1,5 @@
+function wrapper (){
+
 console.log("in wrapper");
 var Example = Example || {};
 
@@ -112,4 +114,5 @@ Example.newtonsCradle.newtonsCradle = function(xx, yy, number, size, length) {
 
 if (typeof module !== 'undefined') {
     module.exports = Example.newtonsCradle;
+}
 }
