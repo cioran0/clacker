@@ -116,3 +116,4 @@ if (typeof module !== 'undefined') {
     module.exports = Example.newtonsCradle;
 }
 }
+wrapper(cradle);
